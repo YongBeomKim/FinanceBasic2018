@@ -1,0 +1,2 @@
+zipline/_version.py export-subst
+*.ipynb binary
