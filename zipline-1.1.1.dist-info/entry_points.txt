@@ -1,3 +1,0 @@
-[console_scripts]
-zipline = zipline.__main__:main
-
