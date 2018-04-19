@@ -9,9 +9,9 @@
 2. Value at Risk
 3. 이평선 활용한 수익률 분석
 4. 몬테카를로 시뮬레이션을 활용한 최적의 포트폴리오 찾기
-5. 다양한 시술적 분석 보조지표 생성하기
+5. 다양한 기술적 보조지표 생성
     1. Stochastic Oscillator
-    2. RSI(Relative Strength Index; 상대강도지수)
+    2. RSI(Relative Strength Index : 상대강도지수)
     3. 볼린저 밴드
     4. MACD(moving average convergence/divergence)
 
