@@ -24,7 +24,7 @@ Pandas로 생성한 DataFrame을 바탕으로 시각화, BackTesting, Risk관리
 ## 수강 대상
     Pandas 모듈을 활용한 시계열 데이터를 다루기 원하시는 분 
 
-엑셀만이 아닌 Python겨에서 시계열 데이터를 다루기 원하시는 금융 업계 종사자
+Python을 활용한 시계열 데이터를 다루기 원하시는 금융 업계 종사자
 
     스스로 금융 분석을 위한 Simulation을 구현하기 원하는 분
 
