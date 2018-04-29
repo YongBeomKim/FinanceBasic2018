@@ -33,10 +33,10 @@
 
 Pandas로 생성한 DataFrame을 바탕으로 시각화, BackTesting, Risk관리를 위한 포트폴리오 구성비율 예측 그리고 머신러닝 기본 이론을 적용한 '종가 데이터를 활용한 주가예측'을 진행합니다
 
-종가를 활용한 주가 예측은 'hidden Markov model', 'ARIMA'시계열 패턴 예측, Prophet (R) 모듈의 활용 및 Keran LSTM을 활용하여 미래의 주가 패턴을 예측까지 진행합니다.
+종가를 활용한 주가 예측은 'hidden Markov model', 'ARIMA'시계열 패턴 예측, Prophet (R) 모듈의 활용 및 Keran LSTM을 활용하여 진행합니다
 
 대표적인 모듈인 Pandas 내용을 통해서 Python의 기본 철학에 익숙해 지신다면, 다른 어떠한 모듈에 대해서도 두려움 없이 접근하고 학습의 방향을 스스로 잡는 능력을 배양할 기회가 될것입니다.
-
+ㅁ
 
 ## 수강 대상
     Pandas 모듈을 활용한 시계열 데이터를 다루기 원하시는 분 
