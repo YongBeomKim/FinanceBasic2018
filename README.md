@@ -1,4 +1,4 @@
-## SK 하이닉스를 활용한 BackTesting
+## SK 하이닉스  BackTesting
 
 <img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/MMCA.png"/><br>
 
