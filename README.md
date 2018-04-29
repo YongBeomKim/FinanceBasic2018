@@ -8,21 +8,20 @@
 
 ## 과정 상세
 
-먼저 파이썬의 기본적인 객체와 함수들에 대한 내용을 먼저 학습합니다. 이를 바탕으로 **Pandas** 모듈을 활용하여 금융 데이터를 다루는 방식을 학습하고, BackTesting 및 합리적인 포트폴리오 구성비율 예측 그리고 머신러닝 기본 이론을 활용하여 '종가 데이터를 활용한 주가예측'쳬 방식을 진행하게 됩니다
+금융데이터 분석을 진행하면서 Pandas, Tensorflow, Scikit-Learn, Keras 등 적용 가능한 모듈의 종류와 수는 상당히 많고, 이들이 새로운 버젼이 제공될때마다 관련 코드의 내용이 달라짐에 따라 유연한 대처를 못함으로써 곤란함을 격는 경우를 많이 봤습니다 
 
-Pandas, Tensorflow, Scikit-Learn, Keras 등 분석에 활용 가능한 모듈의 종류와 수는 상당히 많고, 이들의 새로운 버젼이 제공될때마다 관련 코드의 내용은 매번 달라집니다.  
+이러한 경험에 비추어 봤을때 다양한 모듈을 맛보기 식으로 진행하기 보다는, 기본 이론을 익힌 뒤 Pandas 모듈을 활용한 금융데이터 다루기(시계열 데이터 다루기)를 집중적으로 진행합니다 
 
-이러한 경험에 비추어 봤을때 다양한 모듈을 맛보기 식으로 진행하기 보다는, 기본 이론을 익힌 뒤 Pandas 모듈만을 활용한 금융데이터 다루기(시계열 데이터 다루기)를 더 상세하게 진행할 예정입니다.
+이를 위해 먼저 파이썬의 기본적인 객체와 함수들에 대한 내용을 학습합니다. 이를 바탕으로 **Pandas** 모듈을 활용한 시계열 금융 데이터를 다루는 방식을 학습함으로써 기본개념들이 각각의 모듈에 어떤 방식으로 적용되는지를 익히는 과정을 진행합니다.
 
-Python 기본 개념의 이해 위에서 대표적인 모듈인 Pandas 내용을 연계하여 Python의 기본 철학에 익숙해 지신다면, 다른 어떠한 모듈에 대해서도 두려움 없이 접근하고 학습의 방향을 스스로 잡는 능력을 배양할 기회가 될것입니다.
+Pandas로 생성한 DataFrame을 바탕으로 시각화, BackTesting, Risk관리를 위한 포트폴리오 구성비율 예측 그리고 머신러닝 기본 이론을 적용한 '종가 데이터를 활용한 주가예측'을 진행합니다
 
-금융데이터 분석을 위한 Parametor로는 다양한 인자들이 있지만, 이번 수업에서는 '개별종목의 종가'를 활용한 '이동평균선을 활용한 금융분석'에 포커스를 맞춰서 진행할 예정으로, 기본적인 기술적 보조지표를 스스로 생성하고 BackTesting 및 포트폴리오 배분에 대한 실습까지 이어질 예정입니다.
+종가를 활용한 주가 예측은 'hidden Markov model', 'ARIMA'시계열 패턴 예측, Prophet (R) 모듈의 활용 및 Keran LSTM을 활용하여 미래의 주가 패턴을 예측까지 진행합니다.
 
-마지막으로는 '개별종목의 종가'를 활용한 미래데이터 예측은 'hidden Markov model', 'ARIMA'시계열 분석등, 검증이 된 시계열 패턴 분석방법을 적용하여 미래의 주가 패턴을 예측하는 방법까지 실습에서 다룰 예정입니다
+대표적인 모듈인 Pandas 내용을 통해서 Python의 기본 철학에 익숙해 지신다면, 다른 어떠한 모듈에 대해서도 두려움 없이 접근하고 학습의 방향을 스스로 잡는 능력을 배양할 기회가 될것입니다.
 
 
 ## 수강 대상
-
     Pandas 모듈을 활용한 시계열 데이터를 다루기 원하시는 분 
 
 엑셀만이 아닌 Python겨에서 시계열 데이터를 다루기 원하시는 금융 업계 종사자
@@ -37,11 +36,11 @@ Python 기본 개념의 이해 위에서 대표적인 모듈인 Pandas 내용을
 
 
 
-## Python 기초 및 객체 다루기  (1주)
+## Python 기초 및 객체 다루기
 
-## Pandas 기초 및 시계열 데이터 다루기 (1주)
+## Pandas 기초 및 시계열 데이터 다루기
 
-## 금융데이터 분석 (1주반)
+## 금융데이터 분석
 1. 종목간 상관성 분석
 2. Value at Risk
 3. 이평선 활용한 수익률 분석
@@ -52,13 +51,13 @@ Python 기본 개념의 이해 위에서 대표적인 모듈인 Pandas 내용을
     3. 볼린저 밴드
     4. MACD(moving average convergence/divergence)
 
-## 금융데이터 예측 (1주반)
+## 금융데이터 예측
 1. 은닉마르코프 모델을 활용 (HMM)
 1. ARIMA 시계열 분석을 활용한 주가 예측
 2. Prophet (R) 활용한 주가예측
 3. Keras 의 LSTM 모델을 활용한 주가예측
 
-## Matplotlib & Plotly를 활용한 시각화 (상황에 따라 유동적)
+
 
 
 
@@ -132,13 +131,3 @@ Python 기본 개념의 이해 위에서 대표적인 모듈인 Pandas 내용을
 1. pandas.date_range(end = '2017-07-01', periods=30, freq='BM')  
 1. pandas.date_range('2017/8/8 09:09:09', periods=5, normalize=True)
 1. [str(date.date()) &nbsp;&nbsp; for &nbsp;&nbsp; date &nbsp;&nbsp; in &nbsp;&nbsp; pd.date_range('2017/01/01', '2017/01/11')]
-
-### **Matplotlib**
-1. DataFrame.loc['시작날짜':'종료날짜', :] : 주소 이름을 활용하여 인덱싱
-1. DataFrame.iloc[1:10, : ] # 주소값으로 인덱싱
-1. Series.plot(kind='line')  **# 'bar'**
-1. Series.resample().plot()
-1. Series.rolling().plot()
-1. Series.ix['2018-01':'2018-03'].plot()
-1. plt.figure(figsize=(,)); &nbsp;&nbsp; plt.plot(x축,y축,lw=1.5,label=); &nbsp;&nbsp; plt.legend(loc=); &nbsp;&nbsp; plt.show()
-1. plt.figure(figsize=(,)); &nbsp;&nbsp; plt.subplot(121); &nbsp;&nbsp; plt.plot(); &nbsp;&nbsp; plt.subplot(122); &nbsp;&nbsp; plt.plot(); &nbsp;&nbsp; plot.show()
