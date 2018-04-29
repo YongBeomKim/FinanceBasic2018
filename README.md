@@ -8,9 +8,9 @@
 <img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/portfolio.png"/><br>
 
 
-## Tesla 주가 패턴 예측 (Prophet (R))
+## Tesla 주가 패턴 분석 (Prophet (R))
 
-<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/tesla-prophetR.png" width="300"/><br>
+<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/tesla-prophetR.png"/><br>
 
 
 
