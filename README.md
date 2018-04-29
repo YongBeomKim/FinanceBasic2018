@@ -1,3 +1,20 @@
+## SK 하이닉스를 활용한 BackTesting
+
+<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/MMCA.png"/><br>
+
+
+## PortFolio 최적 분포비율 계산
+
+<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/portfolio.png"/><br>
+
+
+## Tesla 주가 패턴 예측 (Prophet (R))
+
+<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/tesla-prophetR.png" width="300"\><br>
+
+
+
+
 # 파이썬을 활용한 금융데이터 다루기
 
 
