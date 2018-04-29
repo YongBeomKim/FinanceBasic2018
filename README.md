@@ -136,14 +136,6 @@ Python 을 통한 금융 투자 분석과 투자 기회에 인사이트를 얻�
 1. Series.interpolate(method='time')    # 결측치 보간 (시계열적 특성을 부여가능)
 1. Series.interpolate(method='values', limit=1, limit_direction='backward') # 'forward','backward','both'
 
-### **Pandas Series map, reduce, lambda, filter**
-1. map & lambda : map(lambda x : str(x), [list])
-1. map & lambda : list(map(lambda x : str(x), [list]))
-1. map & lambda : <strike>[ map(lambda x : str(x), data) ]</strike>
-1. Series & lambda : Series.apply(lambda x : str(x))
-1. filter & lambda : list(filter(lambda x : x % 2 == 0,  data))
-1. <strike>filter</strike> & DataFrame : DataFrame[ Series % 2 == 0 ]
-1. reduce & lambda : reduce(lambda x, y: x+y, [1, 2, 3, 4, 5])      # 데이터 차원축소
 
 ### **TimeSeries 시계열 데이터 다루기**
 1. from datetime import datetime
