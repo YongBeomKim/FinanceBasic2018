@@ -36,7 +36,7 @@ Python 을 통한 금융 투자 분석과 투자 기회에 인사이트를 얻�
 
 
 
-## 수업내용 
+## 수업내용
 
 ### Python 기초 및 객체 다루기
 
@@ -61,7 +61,7 @@ Python 을 통한 금융 투자 분석과 투자 기회에 인사이트를 얻�
 
 
 
-
+## Python 기본 내용 및 Pandas 요약 
 
 ### **Data & Datum**
 1. Datum(숫자, "문자"), Data([list], {dict}, (tuple,))
