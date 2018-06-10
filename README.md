@@ -1,21 +1,5 @@
-## SK 하이닉스  BackTesting
 
-<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/MMCA.png"/><br>
-
-
-## PortFolio 최적 분포비율 계산
-
-<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/portfolio.png"/><br>
-
-
-## Tesla 주가 패턴 분석 (Prophet (R))
-
-<img src="https://github.com/YongBeomKim/FinanceBasic2018/raw/master/data/tesla-prophetR.png"/><br>
-
-
-
-
-# 파이썬을 활용한 금융데이터 다루기
+# 파이썬을 활용한 금융분석
 
 
 ## 강의 목표
@@ -25,18 +9,14 @@
 
 ## 과정 상세
 
-금융데이터 분석을 진행하면서 Pandas, Tensorflow, Scikit-Learn, Keras 등 적용 가능한 모듈의 종류와 수는 상당히 많고, 이들이 새로운 버젼이 제공될때마다 관련 코드의 내용이 달라짐에 따라 유연한 대처를 못함으로써 곤란함을 격는 경우를 많이 봤습니다 
+파이썬의 기본적인 객체와 함수를 학습하고, 이를 바탕으로 **Pandas** 모듈을 활용한 **시계열 금융 데이터**를 다루는 방식을 학습합니다.
 
-이러한 경험에 비추어 봤을때 다양한 모듈을 맛보기 식으로 진행하기 보다는, 기본 이론을 익힌 뒤 Pandas 모듈을 활용한 금융데이터 다루기(시계열 데이터 다루기)를 집중적으로 진행합니다 
+**Pandas** 와 **Numpy** 그리고 **Matplotlib**를 바탕으로 이동평균선 생성 및  시각화, BackTesting, Risk관리를 위한 포트폴리오 구성비율 예측 등 다양한 금융분석을 수행합니다.
 
-이를 위해 먼저 파이썬의 기본적인 객체와 함수들에 대한 내용을 학습합니다. 이를 바탕으로 **Pandas** 모듈을 활용한 시계열 금융 데이터를 다루는 방식을 학습함으로써 기본개념들이 각각의 모듈에 어떤 방식으로 적용되는지를 익히는 과정을 진행합니다.
-
-Pandas로 생성한 DataFrame을 바탕으로 시각화, BackTesting, Risk관리를 위한 포트폴리오 구성비율 예측 그리고 머신러닝 기본 이론을 적용한 '종가 데이터를 활용한 주가예측'을 진행합니다
+이를 바탕으로 다양한 머신러닝 기본 이론을 활용한 '종가 데이터를 활용한 주가예측'을 진행합니다
 
 종가를 활용한 주가 예측은 'hidden Markov model', 'ARIMA'시계열 패턴 예측, Prophet (R) 모듈의 활용 및 Keran LSTM을 활용하여 진행합니다
 
-대표적인 모듈인 Pandas 내용을 통해서 Python의 기본 철학에 익숙해 지신다면, 다른 어떠한 모듈에 대해서도 두려움 없이 접근하고 학습의 방향을 스스로 잡는 능력을 배양할 기회가 될것입니다.
-ㅁ
 
 ## 수강 대상
     Pandas 모듈을 활용한 시계열 데이터를 다루기 원하시는 분 
@@ -135,7 +115,6 @@ Python 을 통한 금융 투자 분석과 투자 기회에 인사이트를 얻�
 1. df.fillna(df.mean()['컬럼명'])   
 1. Series.interpolate(method='time')    # 결측치 보간 (시계열적 특성을 부여가능)
 1. Series.interpolate(method='values', limit=1, limit_direction='backward') # 'forward','backward','both'
-
 
 ### **TimeSeries 시계열 데이터 다루기**
 1. from datetime import datetime
