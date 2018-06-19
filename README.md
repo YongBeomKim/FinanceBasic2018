@@ -1,4 +1,11 @@
 
+
+<figure class="align-left">
+  <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/07/WeWork-796x423.jpg" alt="">
+  <figcaption>서울스퀘어 WeWork 2018</figcaption>
+</figure>
+
+
 # 파이썬을 활용한 금융분석
 
 
